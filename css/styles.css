@@ -6,7 +6,7 @@
 /* Hero section */
 .hero {
     height: 50rem;
-    background-image: url("../images/ocean.jpg");
+    background-image: url("../images/places/ocean.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -20,7 +20,7 @@
     background: rgba(0, 0, 0, .5);
     position: relative;
     top: 200px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 8px rgb(36, 36, 36);
 }
 
 .hero_content_title {
@@ -34,11 +34,51 @@
     font-size: 1.2rem;
 }
 
+.hero_content_title,
+.hero_content_desc {
+    text-transform: uppercase;
+}
+
 .hero_content_cta {
     background: rgb(255, 251, 0);
     font-weight: 700;
     padding: .5em 1em;
     border-radius: .3rem;
     box-shadow: 1px 1px 5px gray;
+    color: rgb(59, 65, 64);
 }
 
+/* Hightlights section */
+.highlights {
+    align-items: center;
+    padding: 3rem;
+}
+
+.highlights_title {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+}
+
+.highlights_destinations {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.highlights_destination {
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+}
+
+.highlights_destination span {
+    color: rgb(0, 160, 117);
+}
+
+.highlights_destination img{
+    width: 90%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 68);
+    border-radius: .5rem;
+}
