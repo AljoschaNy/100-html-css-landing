@@ -51,12 +51,13 @@
 /* Hightlights section */
 .highlights {
     align-items: center;
-    padding: 3rem;
+    padding: 3rem 3rem 5rem;
+    background: linear-gradient(0deg, rgb(227,255,253), rgb(202,243,240));
 }
 
 .highlights_title {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: rgb(59, 65, 64);
 }
 
@@ -69,7 +70,7 @@
 .highlights_destination {
     align-items: center;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: rgb(124, 123, 123);
 }
 
