@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 1rem 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_link {
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(245, 243, 160);
+    padding: 10px;
+    font-size: 3.125rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0) ;
+}
+
+.nav-main_list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-main_list_item {
+    margin-left: 1.25rem;
+}
