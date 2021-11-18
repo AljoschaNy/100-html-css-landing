@@ -1,0 +1,44 @@
+/* Header section */
+.nav-main_list_item {
+    color: rgb(255, 251, 0);
+}
+
+/* Hero section */
+.hero {
+    height: 50rem;
+    background-image: url("../images/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_content {
+    width: 600px;
+    margin: 0 auto;
+    padding: 3rem 4rem;
+    text-align: center;
+    border-radius: .5rem;
+    background: rgba(0, 0, 0, .5);
+    position: relative;
+    top: 200px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.hero_content_title {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+}
+
+.hero_content_desc {
+    color: rgba(255, 255, 255, .8);
+    font-size: 1.2rem;
+}
+
+.hero_content_cta {
+    background: rgb(255, 251, 0);
+    font-weight: 700;
+    padding: .5em 1em;
+    border-radius: .3rem;
+    box-shadow: 1px 1px 5px gray;
+}
+
